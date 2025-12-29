@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f5f2;
+  color: #2f2f2f;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin: 10px 0 30px;
+}
+
+button {
+  padding: 12px 28px;
+  border: none;
+  background-color: #6b705c;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.about {
+  padding: 100px 20%;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  line-height: 1.8;
+}
